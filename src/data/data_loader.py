@@ -45,6 +45,8 @@ def load_taxi_data(filepath, sample_size=None):
     df = df[(df['trip_distance'] > 0) & (df['trip_distance'] < 100)]
     df = df[(df['fare_amount'] > 2.5) & (df['fare_amount'] < 200)]
     df = df[df['passenger_count'] > 0]
+    df = df[df['dropoff_datetime'].dt.year == 2022]
+
 
     # Calculate trip duration
     df['trip_duration'] = (df['dropoff_datetime'] - df['pickup_datetime']).dt.total_seconds() /60
