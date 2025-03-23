@@ -11,5 +11,10 @@ plotly==6.0.0
 pyarrow==19.0.1
 fastparquet==2024.11.0
 statsmodels==0.14.4
+shimmy>=2.0
+future==1.0.0
+tb-nightly==2.20.0a20250319
+tensorboard==2.19.0
+tensorflow 2.19.0
 
 -e .
