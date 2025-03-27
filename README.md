@@ -2,7 +2,7 @@
 
 This project implements a dynamic pricing simulator for ride-sharing services using reinforcement learning. The system analyzes real NYC taxi data to extract demand patterns and price elasticity, then trains a reinforcement learning agent to optimize pricing strategies.
 
-## Project Overview
+## Project Overview 
 
 The ride-sharing pricing simulator allows for:
 
